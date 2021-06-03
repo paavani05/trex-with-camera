@@ -15,24 +15,24 @@ var gameOver, restart,cloudPos,obstaclePos;
 localStorage["HighestScore"] = 0;
 
 function preload(){
-  trex_running =   loadAnimation("https://paavani05.github.io/trex-with-camera/trex1.png",
-  "https://paavani05.github.io/trex-with-camera/trex3.png",
-  "https://paavani05.github.io/trex-with-camera/trex4.png");
-  trex_collided = loadAnimation("https://paavani05.github.io/trex-with-camera/trex_collided.png");
+  trex_running =   loadAnimation("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/trex1.png",
+  "https://raw.githubusercontent.com/paavani05/trex-with-camera/main/trex3.png",
+  "https://raw.githubusercontent.com/paavani05/trex-with-camera/main/trex4.png");
+  trex_collided = loadAnimation("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/trex_collided.png");
   
-  groundImage = loadImage("https://paavani05.github.io/trex-with-camera/ground2.png");
+  groundImage = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/ground2.png");
   
-  cloudImage = loadImage("https://paavani05.github.io/trex-with-camera/cloud.png");
+  cloudImage = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/cloud.png");
   
-  obstacle1 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle1.png");
-  obstacle2 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle2.png");
-  obstacle3 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle3.png");
-  obstacle4 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle4.png");
-  obstacle5 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle5.png");
-  obstacle6 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle6.png");
+  obstacle1 = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/obstacle1.png");
+  obstacle2 = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/obstacle2.png");
+  obstacle3 = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/obstacle3.png");
+  obstacle4 = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/obstacle4.png");
+  obstacle5 = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/obstacle5.png");
+  obstacle6 = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/obstacle6.png");
   
-  gameOverImg = loadImage("https://paavani05.github.io/trex-with-camera/gameOver.png");
-  restartImg = loadImage("https://paavani05.github.io/trex-with-camera/restart.png");
+  gameOverImg = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/gameOver.png");
+  restartImg = loadImage("https://raw.githubusercontent.com/paavani05/trex-with-camera/main/restart.png");
 }
 
 function setup() {
