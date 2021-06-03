@@ -15,22 +15,24 @@ var gameOver, restart,cloudPos,obstaclePos;
 localStorage["HighestScore"] = 0;
 
 function preload(){
-  trex_running =   loadAnimation("images/trex1.png","images/trex3.png","images/trex4.png");
-  trex_collided = loadAnimation("images/trex_collided.png");
+  trex_running =   loadAnimation("https://paavani05.github.io/trex-with-camera/trex1.png",
+  "https://paavani05.github.io/trex-with-camera/trex3.png",
+  "https://paavani05.github.io/trex-with-camera/trex4.png");
+  trex_collided = loadAnimation("https://paavani05.github.io/trex-with-camera/trex_collided.png");
   
-  groundImage = loadImage("images/ground2.png");
+  groundImage = loadImage("https://paavani05.github.io/trex-with-camera/ground2.png");
   
-  cloudImage = loadImage("images/cloud.png");
+  cloudImage = loadImage("https://paavani05.github.io/trex-with-camera/cloud.png");
   
-  obstacle1 = loadImage("images/obstacle1.png");
-  obstacle2 = loadImage("images/obstacle2.png");
-  obstacle3 = loadImage("images/obstacle3.png");
-  obstacle4 = loadImage("images/obstacle4.png");
-  obstacle5 = loadImage("images/obstacle5.png");
-  obstacle6 = loadImage("images/obstacle6.png");
+  obstacle1 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle1.png");
+  obstacle2 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle2.png");
+  obstacle3 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle3.png");
+  obstacle4 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle4.png");
+  obstacle5 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle5.png");
+  obstacle6 = loadImage("https://paavani05.github.io/trex-with-camera/obstacle6.png");
   
-  gameOverImg = loadImage("images/gameOver.png");
-  restartImg = loadImage("images/restart.png");
+  gameOverImg = loadImage("https://paavani05.github.io/trex-with-camera/gameOver.png");
+  restartImg = loadImage("https://paavani05.github.io/trex-with-camera/restart.png");
 }
 
 function setup() {
